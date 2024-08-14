@@ -18,16 +18,27 @@
 
 <body>
   <div class="login">
-    <h2>Iniciar sesión</h2>
-    <label for="Usuario"></label>
-    <input type="text" id="Usuario" name="Usuario" placeholder="👤 Usuario" required>
-    <br>
-    <label for="Contraseña"></label>
-    <input type="password" id="Contraseña" name="Contraseña" placeholder="🔒 Contraseña" required>
-    <button type="submit">Ingresar</button>
-    <label for="Recordar"></label>
-    <input type="checkbox" id="Recordar" value="Recordar usuario"> Recordar usuario
-    </form>
+    <div class="titulo"><h2>INICIAR SESIÓN</h2></div>
+
+    <div>
+      <label for="Usuario"></label>
+      <p><input class="usuario" type="text" id="Usuario" name="Usuario" placeholder="👤 Usuario" required></p>
+    </div>  
+    
+    <div>
+      <label for="Contraseña"></label>
+      <p><input class="contraseña" type="password" id="Contraseña" name="Contraseña" placeholder="🔒 Contraseña" required></p>
+    </div>
+    
+    <div>
+      <button class="boton" type="submit">Ingresar</button>
+      <br>
+    </div>
+    <div>
+      <label for="Recordar"></label>
+      <p><input type="checkbox" id="Recordar" value="Recordar usuario"> Recordar usuario</p>
+    </div>
+   
 </div>
   <footer class="text-muted">
     <div class="container">
