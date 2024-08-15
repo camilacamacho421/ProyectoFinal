@@ -239,3 +239,6 @@ a.custom-card:hover {
   transition: all 0.2s ease-in-out;
 }
 
+.boton:hover {
+  background-color:#f08000;
+}
