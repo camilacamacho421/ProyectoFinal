@@ -190,3 +190,67 @@ a.custom-card:hover {
 }
 
 /*Acá comenzamos*/
+
+.login{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  height: 750px;           /* Asegura que el body ocupe toda la altura de la ventana */
+  margin: 0;               /* Elimina el margen por defecto del body */
+  background-color: #f0f0f0; /* Color de fondo opcional para ver mejor el contenedor */
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.titulo{
+  border-radius: 50px;
+  background-color: #F09100;
+  padding: 10px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+}
+
+/*NO SALIÓ*/
+.usuario, 
+.contraseña{
+  padding: 10px;
+  border-radius: 25px;
+  border: #fff;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.boton{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  background-color: #F09100;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.boton:hover {
+  background-color:#f08000;
+}
+
+#container-login {
+  width: 100%;
+  max-width: 400px; /* Ajusta el ancho según tu diseño */
+  margin: 20px auto 0 auto; /* Centra el formulario horizontalmente ACA CAMBIE*/
+  padding: 0; /* Espacio interno */
+  border: 1px solid #cccccc; /* Color y grosor del borde */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+}
