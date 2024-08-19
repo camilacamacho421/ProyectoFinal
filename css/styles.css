@@ -200,6 +200,7 @@ a.custom-card:hover {
   background-color: #f0f0f0; /* Color de fondo opcional para ver mejor el contenedor */
   flex-direction: column;
   border-radius: 8px;
+  margin: 0;
 }
 
 .titulo{
@@ -267,6 +268,4 @@ a.custom-card:hover {
   margin: 40px 0 20px 200px;
   justify-content: space-between;
   align-items: center;
-  
-
 }
