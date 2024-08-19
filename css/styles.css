@@ -195,11 +195,12 @@ a.custom-card:hover {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center;     /* Centra verticalmente */
-  height: 750px;           /* Asegura que el body ocupe toda la altura de la ventana */
+  height: 600px;           /* Asegura que el body ocupe toda la altura de la ventana */
   margin: 0;               /* Elimina el margen por defecto del body */
-  background-color: #f0f0f0; /* Color de fondo opcional para ver mejor el contenedor */
+  background-color: #ffffff; /* Color de fondo opcional para ver mejor el contenedor */
   flex-direction: column;
   border-radius: 8px;
+  margin: 0;
 }
 
 .titulo{
@@ -246,9 +247,9 @@ a.custom-card:hover {
 }
 
 #container-login {
-  width: 100%;
+  width: 50%;
   max-width: 400px; /* Ajusta el ancho según tu diseño */
-  margin: 20px auto 0 auto; /* Centra el formulario horizontalmente ACA CAMBIE*/
+  margin: 0 auto 0 auto; /* Centra el formulario horizontalmente ACA CAMBIE*/
   padding: 0; /* Espacio interno */
   border: 1px solid #cccccc; /* Color y grosor del borde */
   border-radius: 8px; /* Bordes redondeados */
@@ -267,6 +268,9 @@ a.custom-card:hover {
   margin: 40px 0 20px 200px;
   justify-content: space-between;
   align-items: center;
-  
+}
 
+.login img {
+  width: 65%;
+  margin-bottom: 20px;
 }
