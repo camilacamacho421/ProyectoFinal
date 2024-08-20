@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded',()=> {
 
-    document.getElementsById('container-login').addEventListener('submit',function(event) {
+    document.getElementById('container-login').addEventListener('submit',function(event) {
 
+      event.preventDefault();//Agregué esto y funcionó 
+   
      let usuario = document.getElementById('Usuario').value;
      let contraseña = document.getElementById('Contraseña').value;
 
