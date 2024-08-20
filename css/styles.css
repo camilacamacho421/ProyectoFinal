@@ -200,7 +200,6 @@ a.custom-card:hover {
   background-color: #ffffff; /* Color de fondo opcional para ver mejor el contenedor */
   flex-direction: column;
   border-radius: 8px;
-  margin: 0;
 }
 
 .titulo{
@@ -249,7 +248,7 @@ a.custom-card:hover {
 #container-login {
   width: 50%;
   max-width: 400px; /* Ajusta el ancho según tu diseño */
-  margin: 0 auto 0 auto; /* Centra el formulario horizontalmente ACA CAMBIE*/
+  margin: 100px auto 100px auto; /* Centra el formulario horizontalmente y verticalemente*/
   padding: 0; /* Espacio interno */
   border: 1px solid #cccccc; /* Color y grosor del borde */
   border-radius: 8px; /* Bordes redondeados */
@@ -257,7 +256,6 @@ a.custom-card:hover {
 }
 
 .productos h1 {
-
   text-align: center;
   color: #f08000;
   margin-top: 40px;
