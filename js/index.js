@@ -12,3 +12,18 @@ document.addEventListener("DOMContentLoaded", function(){
         window.location = "products.html"
     });
 });
+
+//DESAFIATE
+document.addEventListener('DOMContentLoaded', () => {
+    const menuButton = document.getElementById('menu-button');
+    const loggedIn = localStorage.getItem('loggedIn');
+
+    if (loggedIn === 'true') {
+        menuButton.onclick = () => {
+            localStorage.removeItem('loggedIn'); // Eliminar sesión
+            window.location.href = 'login.html'; // Redirigir al login
+        };
+    } else {
+        window.location.href = 'login.html'; // Redirigir al login
+    }
+});

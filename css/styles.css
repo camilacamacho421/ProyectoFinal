@@ -116,6 +116,11 @@ footer p {
   cursor: pointer;
 }
 
+/* esto agregamos para que el botón de cerrar sesión tenga el mismo comportamiento que lo demás*/
+#menu-button {
+  cursor: pointer;
+}
+
 .left {
   float: left;
   padding: 4px;
@@ -212,7 +217,6 @@ a.custom-card:hover {
   color: white;
 }
 
-/*NO SALIÓ*/
 .usuario, 
 .contraseña{
   padding: 10px;
