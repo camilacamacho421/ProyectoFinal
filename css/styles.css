@@ -262,14 +262,16 @@ a.custom-card:hover {
 .productos h1 {
   text-align: center;
   color: #f08000;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 #tabla {
-  width: 100%;
+  width: 80%;
   margin: 40px 0 20px 200px;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
+  font-size: 22px;
 }
 
 .login img {
