@@ -31,3 +31,8 @@ fetch(AUTOS_DATOS)
   .catch(function (error) {
     console.log("Hubo un problema con la petición Fetch:" + error.message);
   });
+
+ 
+document.getElementById('menu-button').addEventListener('click',function(event) {
+  window.location.href= 'login.html' 
+  });
