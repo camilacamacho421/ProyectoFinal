@@ -116,6 +116,11 @@ footer p {
   cursor: pointer;
 }
 
+/* esto agregamos para que el botón de cerrar sesión tenga el mismo comportamiento que lo demás*/
+#menu-button {
+  cursor: pointer;
+}
+
 .left {
   float: left;
   padding: 4px;
@@ -195,9 +200,9 @@ a.custom-card:hover {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center;     /* Centra verticalmente */
-  height: 750px;           /* Asegura que el body ocupe toda la altura de la ventana */
+  height: 600px;           /* Asegura que el body ocupe toda la altura de la ventana */
   margin: 0;               /* Elimina el margen por defecto del body */
-  background-color: #f0f0f0; /* Color de fondo opcional para ver mejor el contenedor */
+  background-color: #ffffff; /* Color de fondo opcional para ver mejor el contenedor */
   flex-direction: column;
   border-radius: 8px;
 }
@@ -212,7 +217,6 @@ a.custom-card:hover {
   color: white;
 }
 
-/*NO SALIÓ*/
 .usuario, 
 .contraseña{
   padding: 10px;
@@ -246,9 +250,9 @@ a.custom-card:hover {
 }
 
 #container-login {
-  width: 100%;
+  width: 50%;
   max-width: 400px; /* Ajusta el ancho según tu diseño */
-  margin: 20px auto 0 auto; /* Centra el formulario horizontalmente ACA CAMBIE*/
+  margin: 100px auto 100px auto; /* Centra el formulario horizontalmente y verticalemente*/
   padding: 0; /* Espacio interno */
   border: 1px solid #cccccc; /* Color y grosor del borde */
   border-radius: 8px; /* Bordes redondeados */
@@ -256,17 +260,19 @@ a.custom-card:hover {
 }
 
 .productos h1 {
-
   text-align: center;
   color: #f08000;
   margin-top: 40px;
 }
 
-.tabla {
+#tabla {
   width: 100%;
   margin: 40px 0 20px 200px;
   justify-content: space-between;
   align-items: center;
-  
+}
 
+.login img {
+  width: 65%;
+  margin-bottom: 20px;
 }
