@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 });
 
-//DESAFIATE
+//DESAFIATE - VERIFICA SI YA SE HA INICIADO SESIÓN O NO
 document.addEventListener('DOMContentLoaded', () => {
     const menuButton = document.getElementById('menu-button');
     const loggedIn = localStorage.getItem('loggedIn');
